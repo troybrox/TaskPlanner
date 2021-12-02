@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TodoItemView" customModule="TaskPlanner" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionTextView" destination="rqa-yb-pxU" id="Av0-uB-Vvz"/>
+                <outlet property="slideIdicator" destination="pev-y4-4Si" id="Yv3-8Y-hxs"/>
+                <outlet property="timeLabel" destination="vqn-j3-jN8" id="oYl-mA-R8j"/>
+                <outlet property="titleLabel" destination="QcO-SS-t6j" id="DVy-sD-vzP"/>
+                <outlet property="view" destination="iN0-l3-epB" id="zUE-Ja-Sva"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="570"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pev-y4-4Si">
+                    <rect key="frame" x="177" y="60" width="60" height="4"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="4" id="GaS-J0-mBO"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="4" id="hdT-Ie-03i"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="nrk-zK-heW"/>
+                        <constraint firstAttribute="width" constant="60" id="o4b-DL-UWD"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="rr5-13-09i"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="4" id="zYg-Ib-lxO"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="tkT-IT-LTk">
+                    <rect key="frame" x="25" y="80" width="364" height="474"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дело" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcO-SS-t6j">
+                            <rect key="frame" x="0.0" y="0.0" width="364" height="34.5"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Время" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqn-j3-jN8">
+                            <rect key="frame" x="0.0" y="48.5" width="364" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="DFdffd fdfdsfdsf dfgndfgnijln fljgi ndlijgn " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rqa-yb-pxU">
+                            <rect key="frame" x="0.0" y="82" width="364" height="392"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="rqa-yb-pxU" secondAttribute="trailing" id="AQ9-f0-LOq"/>
+                        <constraint firstAttribute="trailing" secondItem="QcO-SS-t6j" secondAttribute="trailing" id="I8W-CD-fuc"/>
+                        <constraint firstAttribute="bottom" secondItem="rqa-yb-pxU" secondAttribute="bottom" id="Nbz-Tn-mEd"/>
+                        <constraint firstAttribute="trailing" secondItem="vqn-j3-jN8" secondAttribute="trailing" id="Q7T-hv-gdx"/>
+                        <constraint firstItem="rqa-yb-pxU" firstAttribute="leading" secondItem="tkT-IT-LTk" secondAttribute="leading" id="uf6-UF-RIy"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="pev-y4-4Si" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5OB-Yd-b4q"/>
+                <constraint firstItem="tkT-IT-LTk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="BR2-o6-K7v"/>
+                <constraint firstItem="pev-y4-4Si" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="Bx2-ug-VhE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="tkT-IT-LTk" secondAttribute="bottom" constant="16" id="hqt-RE-yIc"/>
+                <constraint firstItem="tkT-IT-LTk" firstAttribute="top" secondItem="pev-y4-4Si" secondAttribute="bottom" constant="16" id="mFv-1N-iN4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tkT-IT-LTk" secondAttribute="trailing" constant="25" id="qE6-PV-HVN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="235.04464285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
