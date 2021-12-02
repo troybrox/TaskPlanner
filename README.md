@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Main screen of application][product-screenshot] | width="150"]
+[![Main screen of application][product-screenshot]]
 
 Application for keeping a diary. It is possible to add a new todo-item. When adding a new todo-item, the title, description, start and finish times are insisted.
 
@@ -44,19 +44,20 @@ Application for keeping a diary. It is possible to add a new todo-item. When add
 ### Screenshots
 
 Add todo-item screen
-<img src="images/options.png" width="150">
+<img src="images/options.png" width="200">
 <br />
 
-Choose todo-item color
-<img src="images/colors.png" width="150">
+<!-- Choose todo-item color -->
+[![Choose todo-item color]]
+<img src="images/colors.png" width="200">
 <br />
 
 Todo-list view with calendar and timetable
-<img src="images/todolist.png" width="150">
+<img src="images/todolist.png" width="200">
 <br />
 
 Todo-item details
-<img src="images/details.png" width="150">
+<img src="images/details.png" width="200">
 
 <!-- [![Add todo-item screen][options-screenshot]] { width: 150px; }
 [![Choose todo-item color][colors-screenshot]] { width: 150px; }
