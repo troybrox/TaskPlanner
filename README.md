@@ -35,9 +35,9 @@ Main screen of application
 <div>
     <img src="images/screenshot.png" width="300">
 <div/>
+<br />
 
 Application for keeping a diary. It is possible to add a new todo-item. When adding a new todo-item, the title, description, start and finish times are insisted.
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -48,27 +48,25 @@ Application for keeping a diary. It is possible to add a new todo-item. When add
 <div>
     <img src="images/options.png" width="300">
 <div/>
-
+<br />
 
 <!-- Choose todo-item color -->
 <div>
     <img src="images/colors.png" width="300">
 <div/>
-
 <br />
 
 <!--Todo-list view with calendar and timetable-->
 <div>
     <img src="images/todolist.png" width="300">
 <div/>
-
 <br />
 
 <!--Todo-item details-->
 <div>
     <img src="images/details.png" width="300">
 <div/>
-
+<br />
 
 <!-- [![Add todo-item screen][options-screenshot]] { width: 150px; }
 [![Choose todo-item color][colors-screenshot]] { width: 150px; }
