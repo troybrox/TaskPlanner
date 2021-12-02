@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Main screen of application][product-screenshot]](https://example.com)
+[![Main screen of application][product-screenshot] | width="150"]
 
 Application for keeping a diary. It is possible to add a new todo-item. When adding a new todo-item, the title, description, start and finish times are insisted.
 
