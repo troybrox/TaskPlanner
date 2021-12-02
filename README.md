@@ -28,14 +28,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Main screen of application][product-screenshot]]
+<!--[![Main screen of application][product-screenshot]]-->
+
+Main screen of application
+<br />
+<div>
+    <img src="images/screenshot.png" width="300">
+<div/>
 
 Application for keeping a diary. It is possible to add a new todo-item. When adding a new todo-item, the title, description, start and finish times are insisted.
-
-<!-- Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile: -->
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -43,21 +44,31 @@ Application for keeping a diary. It is possible to add a new todo-item. When add
 
 ### Screenshots
 
-Add todo-item screen
-<img src="images/options.png" width="200">
-<br />
+<!--Add todo-item screen-->
+<div>
+    <img src="images/options.png" width="300">
+<div/>
+
 
 <!-- Choose todo-item color -->
-[![Choose todo-item color]]
-<img src="images/colors.png" width="200">
+<div>
+    <img src="images/colors.png" width="300">
+<div/>
+
 <br />
 
-Todo-list view with calendar and timetable
-<img src="images/todolist.png" width="200">
+<!--Todo-list view with calendar and timetable-->
+<div>
+    <img src="images/todolist.png" width="300">
+<div/>
+
 <br />
 
-Todo-item details
-<img src="images/details.png" width="200">
+<!--Todo-item details-->
+<div>
+    <img src="images/details.png" width="300">
+<div/>
+
 
 <!-- [![Add todo-item screen][options-screenshot]] { width: 150px; }
 [![Choose todo-item color][colors-screenshot]] { width: 150px; }
