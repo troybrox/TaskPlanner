@@ -46,6 +46,12 @@ Application for keeping a diary. It is possible to add a new todo-item. When add
 
 <!--Add todo-item screen-->
 <div>
+    <img src="images/options_empty.png" width="300">
+<div/>
+<br />
+
+<!--Add todo-item filled screen-->
+<div>
     <img src="images/options.png" width="300">
 <div/>
 <br />
@@ -62,9 +68,25 @@ Application for keeping a diary. It is possible to add a new todo-item. When add
 <div/>
 <br />
 
+<div>
+    <img src="images/todolist_colorful.png" width="300">
+<div/>
+<br />
+
+<div>
+    <img src="images/todolist_colorful_calendar.png" width="300">
+<div/>
+<br />
+
 <!--Todo-item details-->
 <div>
     <img src="images/details.png" width="300">
+<div/>
+<br />
+
+<!--Todo-list empty view with calendar and timetable-->
+<div>
+    <img src="images/todolist_empty_calendar.png" width="300">
 <div/>
 <br />
 

@@ -11,6 +11,18 @@
       location = "group:images"
       name = "images">
       <FileRef
+         location = "group:/Users/daniil/Dev/IOS/Projects/SimbirSoft Internship/TaskPlanner/images/todolist_empty_calendar.png">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/daniil/Dev/IOS/Projects/SimbirSoft Internship/TaskPlanner/images/todolist_colorful.png">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/daniil/Dev/IOS/Projects/SimbirSoft Internship/TaskPlanner/images/todolist_colorful_calendar.png">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/daniil/Dev/IOS/Projects/SimbirSoft Internship/TaskPlanner/images/options_empty.png">
+      </FileRef>
+      <FileRef
          location = "group:colors.png">
       </FileRef>
       <FileRef
