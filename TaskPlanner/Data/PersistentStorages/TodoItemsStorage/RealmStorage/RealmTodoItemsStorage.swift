@@ -20,7 +20,7 @@ final class RealmTodoItemsStorage {
 
 extension RealmTodoItemsStorage : TodoItemsStorage {
 
-    func fetchTodoItems(forDate date: Date, completion: @escaping ([TodoItem]) -> Void) {  //-> [TodoItem]
+    func fetchTodoItems(forDate date: Date, completion: @escaping ([TodoItem]) -> Void) {
         
         let calendar = Calendar.current
         let startPoint = calendar.date(bySettingHour: 0, minute: 0, second: 0, of: date, direction: .backward)

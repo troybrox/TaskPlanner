@@ -74,12 +74,12 @@ final class DefaultTodoItemOptionsViewModel : TodoItemOptionsViewModel {
     
     // MARK: - Init
     
-    init(addTodoItemUseCase: AddTodoItemUseCase, closures: TodoItemOptionsViewModelClosures? = nil) { // addTodoItemUseCase:  AddTodoItemUseCase
+    init(addTodoItemUseCase: AddTodoItemUseCase, closures: TodoItemOptionsViewModelClosures? = nil) {
         self.closures = closures
         self.addTodoItemUseCase = addTodoItemUseCase
     }
     
-    init(todoItem: TodoItem, addTodoItemUseCase: AddTodoItemUseCase, date: Date, closures: TodoItemOptionsViewModelClosures? = nil) { // addTodoItemUseCase:  AddTodoItemUseCase
+    init(todoItem: TodoItem, addTodoItemUseCase: AddTodoItemUseCase, date: Date, closures: TodoItemOptionsViewModelClosures? = nil) {
         self.todoItem = todoItem
         self.closures = closures
         self.addTodoItemUseCase = addTodoItemUseCase
@@ -90,7 +90,7 @@ final class DefaultTodoItemOptionsViewModel : TodoItemOptionsViewModel {
     
     // MARK: - Private
     
-    private func initInputItems() { // TODO: params: default values
+    private func initInputItems() {
 
         titleInputVM = OneLineInputCellViewModel(text: "", didChange: { [weak self] (value) in
             self?.title.value = value
@@ -98,19 +98,18 @@ final class DefaultTodoItemOptionsViewModel : TodoItemOptionsViewModel {
             print("\ndidChange() titleInputVM text value = \(value)\n")
         })
         
-        startDateInputVM = DateInputCellViewModel(type: .start, date: startDate.value /*Date()*/, didChange: { [weak self] (value) /*(value)*/ in
+        startDateInputVM = DateInputCellViewModel(type: .start, date: startDate.value, didChange: { [weak self] (value) in
             self?.startDate.value = value
             self?.updateItems()
             print("\ndidChange() startDateInputVM value = \(value)\n")
         })
         
-        finishDateInputVM = DateInputCellViewModel(type: .finish, date: finishDate.value/*Date().addingTimeInterval(3600)*/, didChange: { [weak self] (value) /*(value)*/ in
+        finishDateInputVM = DateInputCellViewModel(type: .finish, date: finishDate.value, didChange: { [weak self] (value) in
             self?.finishDate.value = value
             self?.updateItems()
             print("\ndidChange() finishDateInputVM value = \(value)\n")
         })
         
-//        colorInputVM = ColorInputCellViewModel(color: .blue)
         colorInputVM = ColorInputCellViewModel(color: .blue, didChange: { [weak self] (color) in
             self?.color.value = color
             self?.updateItems()
