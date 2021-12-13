@@ -56,9 +56,21 @@ Application for keeping a diary. It is possible to add a new todo-item. When add
 <div/>
 <br />
 
-<!-- Choose todo-item color -->
+<!-- Select todo-item color -->
 <div>
     <img src="images/colors.png" width="300">
+<div/>
+<br />
+
+<!-- Select todo-item date and time -->
+<div>
+    <img src="images/date_picker.png" width="300">
+<div/>
+<br />
+
+<!-- Todo-item options exit alert -->
+<div>
+    <img src="images/exit_alert.png" width="300">
 <div/>
 <br />
 

@@ -11,6 +11,12 @@
       location = "group:images"
       name = "images">
       <FileRef
+         location = "group:/Users/daniil/Dev/IOS/Projects/SimbirSoft Internship/TaskPlanner/images/date_picker.png">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/daniil/Dev/IOS/Projects/SimbirSoft Internship/TaskPlanner/images/exit_alert.png">
+      </FileRef>
+      <FileRef
          location = "group:/Users/daniil/Dev/IOS/Projects/SimbirSoft Internship/TaskPlanner/images/todolist_empty_calendar.png">
       </FileRef>
       <FileRef
